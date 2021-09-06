@@ -6,4 +6,7 @@ This has only been built for mobile and support for any bigger devices was not k
 To view the site on a mobile device, press the bottom key combos :)
 _ctrl+shift+i_ then _ctrl+shift+m_
 
+here is a link to where the site is hosted live:
+https://rubenverster.github.io/design-asnan-uzzman/
+
 If you want to edit the SCSS files, make sure you run the sass-compiler with 'npm run compile-sass'
