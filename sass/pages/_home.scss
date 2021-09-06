@@ -1,0 +1,48 @@
+.page-container {
+  width: 100vw;
+  overflow: clip;
+  &::after {
+    overflow: hidden;
+    content: '';
+    height: 750px;
+    width: 750px;
+    position: fixed;
+    color: black;
+    border-radius: 50%;
+    z-index: -1;
+    top: -50%;
+    left: -80%;
+    background-image: linear-gradient(
+      to left,
+      $color-primary-light,
+      $color-primary-dark
+    );
+  }
+}
+
+.heading {
+  margin: 2rem 0 0 0;
+  padding: 2rem;
+  color: $color-white;
+
+  &__top {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title {
+      font-size: 2.7rem;
+    }
+
+    &__img {
+      border: 2px solid $color-white;
+      border-radius: 50%;
+    }
+  }
+
+  &__description {
+    font-size: 1.3rem;
+  }
+}
