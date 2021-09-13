@@ -4,6 +4,7 @@ Please refer to the design.PNG file in the root directory for what the design lo
 
 This has only been built for mobile and support for any bigger devices was not kept in mind. Strict mobile responsiveness
 To view the site on a mobile device, press the bottom key combos :)
+
 _ctrl+shift+i_ then _ctrl+shift+m_
 
 here is a link to where the site is hosted live:
